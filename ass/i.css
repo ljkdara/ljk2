@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding-inline-start:0;
-    list-style: none;
-     text-decoration: none;
+   
 }
+a{ text-decoration: none;}
+    
+ul{ list-style: none;
+       padding-inline-start:0;
+    }
+    
 html{
     font-family: helvetica;
     scroll-behavior: smooth;
@@ -172,8 +176,10 @@ font-size: 24px;
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
-  background-color:white;
+
 }
+#band{
+      background-color:white;}
 .Section-heading{
     font-size: 30px;font-weight: 400;
     text-align: center;
